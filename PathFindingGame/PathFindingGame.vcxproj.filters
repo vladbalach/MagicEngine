@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{22a0c703-cff3-4c22-b691-51c7149f9bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{bf3ee67f-6bc3-4924-996c-024e015fc105}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCameraActor.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PCH_Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCameraActor.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
